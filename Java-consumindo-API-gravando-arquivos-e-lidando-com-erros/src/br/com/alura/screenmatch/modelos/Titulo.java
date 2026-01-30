@@ -77,6 +77,6 @@ public class Titulo {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + ", Ano de lançamento: " + anoDeLancamento + ", Duração: " + duracaoEmMinutos;
+        return "(Nome = " + nome + ", Ano de lançamento = " + anoDeLancamento + ", Duração = " + duracaoEmMinutos + ")";
     }
 }
